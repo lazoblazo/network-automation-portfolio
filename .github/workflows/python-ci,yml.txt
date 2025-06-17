@@ -1,0 +1,25 @@
+name: Spustenie Netmiko skriptu
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repozitára
+      uses: actions/checkout@v3
+
+    - name: Nastavenie Pythonu
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+
+    - name: Inštalácia závislostí
+      run: pip install -r requirements.txt
+
+    - name: Spustenie skriptu
+      run: python zadanie1_show_version.py
