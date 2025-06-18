@@ -1,0 +1,7 @@
+devices:
+  - name: Google DNS
+    ip: 8.8.8.8
+  - name: Cloudflare DNS
+    ip: 1.1.1.1
+  - name: Lokálny Router
+    ip: 192.168.1.1
