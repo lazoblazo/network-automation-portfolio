@@ -1,9 +1,0 @@
-devices:
-  - name: Router_1
-    ip: 192.168.1.1
-    model: Cisco ISR 4331
-    location: Bratislava
-  - name: Switch_1
-    ip: 192.168.1.2
-    model: Cisco Catalyst 9200
-    location: Kosice
