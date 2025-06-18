@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 📋 Device Inventory Generator
 
 This is a simple Python script that generates a device inventory report based on a YAML configuration file.  
@@ -28,6 +29,8 @@ The output is a Markdown table that can be used for documentation or as a lightw
 
 1. Make sure you have Python and `PyYAML` installed:
 =======
+=======
+>>>>>>> 4e5819d977b1b3b18992ef45a283794ad5c17d4b
 Network Automation Portfolio
 
 Mini-projekty zamerané na sieťovú automatizáciu pomocou Pythonu, Netmiko, YAML a CI/CD (GitHub Actions).
@@ -43,4 +46,7 @@ Skript, ktorý sa pripojí cez SSH (Netmiko) a získa systémové informácie zo
 Automatizované overenie stavu rozhraní (`show ip interface brief`) + CI spúšťanie.
 
 ## ➕ Ďalšie projekty budú priebežne pribúdať
+<<<<<<< HEAD
+>>>>>>> 4e5819d977b1b3b18992ef45a283794ad5c17d4b
+=======
 >>>>>>> 4e5819d977b1b3b18992ef45a283794ad5c17d4b
