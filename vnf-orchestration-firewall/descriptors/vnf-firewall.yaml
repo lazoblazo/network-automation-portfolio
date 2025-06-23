@@ -1,0 +1,29 @@
+vnf:
+  name: vFirewall
+  vendor: TelcoSec
+  version: 1.0
+  resources:
+    cpu: 2
+    memory: 2048
+    storage: 10
+  interfaces:
+    - name: mgmt
+      type: management
+      ip: dhcp
+    - name: wan
+      type: external
+      ip: static
+      address: 203.0.113.10/24
+    - name: lan
+      type: internal
+      ip: static
+      address: 10.0.0.1/24
+
+lifecycle:
+  instantiate:
+    - create-vm
+    - attach-interfaces
+    - apply-config firewall-rules.yml
+  terminate:
+    - stop-services
+    - delete-vm

@@ -1,0 +1,10 @@
+firewall_rules:
+  - action: allow
+    protocol: tcp
+    port: 22
+    direction: inbound
+    comment: allow SSH from WAN
+  - action: deny
+    protocol: any
+    direction: inbound
+    comment: default deny all
