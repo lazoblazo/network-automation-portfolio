@@ -1,0 +1,40 @@
+Hodnotenie dodávate¾ov,,,,
+,,,,
+Kritéria hodnotenia:,,,,
+,,,,
+1. Technicka kompatibilita,,,,
+"   - Podporovane protokoly (napr. IPv6, BGP, MPLS)",,,,
+   - Integracia s existujucim systemom,,,,
+,,,,
+2. Podpora standardov,,,,
+"   - 3GPP, IEEE 802.1Q, ITU-T G.8275",,,,
+   - Kompatibilita s MANO alebo OSS/BSS,,,,
+,,,,
+3. SLA a dostupnost,,,,
+   - Garantovana dostupnost (napr. 99.99%),,,,
+   - Odozva technickej podpory (napr. <4h),,,,
+,,,,
+4. Bezpecnostne prvky,,,,
+"   - Sifrovanie, firewall, auditovanie",,,,
+   - Podpora RBAC (role-based access control),,,,
+,,,,
+5. Cena,,,,
+   - Licencne naklady,,,,
+   - Implementacne a udrzovacie naklady,,,,
+,,,,
+Skore:,,,,
+,,,,
+1 – nevyhovuje,,,,
+2 – ciastocne vyhovuje,,,,
+3 – minimalne vyhovuje,,,,
+4 – velmi dobre,,,,
+5 – idealne riesenie,,,,
+,,,,
+,,,,
+Kritérium,Váha,Firma A,Firma B,Firma C
+Technická kompatibilita,30%,4,3,5
+Podpora štandardov,20%,5,3,4
+SLA / dostupnos,20%,3,4,5
+Bezpeènos,15%,2,4,4
+Cena,15%,3,5,2
+Celkové skóre,,3.55,3.85,4.25
