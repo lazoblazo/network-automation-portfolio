@@ -15,3 +15,8 @@ Načíta zoznam zariadení zo súboru YAML a vygeneruje jednoduchý textový vý
 
 ### 4. Device Status Monitor
 Skript, ktorý testuje dostupnosť zariadení pomocou ICMP (ping).
+
+### 5. Hodnotenie_dodavatelov.csv
+Tabuľka na porovnanie technických parametrov a hodnotenie dodávateľov v rámci Telco tendra.
+Obsahuje hmotnostné hodnotenie a bodovanie.
+Slúži ako jednoduchá ukážka predvýberu partnera na základe technických kritérií.
