@@ -20,3 +20,8 @@ Skript, ktorý testuje dostupnosť zariadení pomocou ICMP (ping).
 Tabuľka na porovnanie technických parametrov a hodnotenie dodávateľov v rámci Telco tendra.
 Obsahuje hmotnostné hodnotenie a bodovanie.
 Slúži ako jednoduchá ukážka predvýberu partnera na základe technických kritérií.
+
+### 6. Vnf-orchestration-firewall/descriptors
+YAML deskriptory pre nasadenie virtuálneho firewallu (VNF) v Telco prostredí.
+Obsahuje základné šablóny pre VNF, NSD, CP a ich prepojenie v rámci MANO architektúry.
+Ukážka základnej VNF orchestrácie v štýle ETSI NFV.
