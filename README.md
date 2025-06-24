@@ -21,7 +21,11 @@ Tabuľka na porovnanie technických parametrov a hodnotenie dodávateľov v rám
 Obsahuje hmotnostné hodnotenie a bodovanie.
 Slúži ako jednoduchá ukážka predvýberu partnera na základe technických kritérií.
 
-### 6. Vnf-orchestration-firewall/descriptors
+### 6. vnf-orchestration-firewall/descriptors
 YAML deskriptory pre nasadenie virtuálneho firewallu (VNF) v Telco prostredí.
 Obsahuje základné šablóny pre VNF, NSD, CP a ich prepojenie v rámci MANO architektúry.
 Ukážka základnej VNF orchestrácie v štýle ETSI NFV.
+
+### 7. firewall-automation-cisco
+Automatizované generovanie firewall ACL pravidiel pre Cisco zariadenia pomocou Ansible a Jinja2.
+Pravidlá sa definujú v YAML, z ktorých sa vytvára výstupný konfiguračný súbor.
