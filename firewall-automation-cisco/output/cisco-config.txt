@@ -1,0 +1,5 @@
+access-list 100 permit tcp 192.168.1.0 0.0.0.255 any eq 80
+
+access-list 100 deny udp host 10.0.0.5 host 8.8.8.8 eq 53
+
+access-list 100 deny tcp any host 10.10.10.10 eq 22

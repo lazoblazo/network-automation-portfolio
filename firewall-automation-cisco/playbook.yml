@@ -1,0 +1,12 @@
+- name: Generate Cisco ACL config
+  hosts: localhost
+  gather_facts: no
+
+  vars_files:
+    - vars/firewall_rules.yml
+
+  tasks:
+    - name: Render Cisco config
+      template:
+        src: templates/firewall_config.j2
+        dest: output/cisco-config.txt

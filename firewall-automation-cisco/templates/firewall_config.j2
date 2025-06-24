@@ -1,0 +1,3 @@
+{% for rule in firewall_rules %}
+access-list 100 {{ rule.action }} {{ rule.proto }} {{ rule.src }} {{ rule.dst }} eq {{ rule.port }}
+{% endfor %}

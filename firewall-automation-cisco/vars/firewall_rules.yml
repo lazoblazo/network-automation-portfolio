@@ -1,0 +1,18 @@
+firewall_rules:
+  - src: 192.168.1.0 0.0.0.255
+    dst: any
+    port: 80
+    proto: tcp
+    action: permit
+
+  - src: host 10.0.0.5
+    dst: host 8.8.8.8
+    port: 53
+    proto: udp
+    action: deny
+
+  - src: any
+    dst: host 10.10.10.10
+    port: 22
+    proto: tcp
+    action: deny
